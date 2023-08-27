@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+    <!--font awesome stylessheet link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  fav icon-->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
     <!-- style sheet   -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <!--nav bar-->
-    <nav>
-        <h2><span class="primary-text">Photo</span>Grapz</h2>
+    <nav class="container flex">
+        <h2 class="logo"><span class="primary-text">Photo</span>Grapz</h2>
         <div class="nav-links" id="nav-links">
             <ul class="flex">
-                <li><a href="#" class="hover-link">Home</a></li>
+                <li><a href="#" class="hover-link primary-text">Home</a></li>
                 <li><a href="#" class="hover-link">About</a></li>
-                <li><a href="#" class="hover-link">Services</a></li>
-                <li><a href="#" class="hover-link">Blog</a></li>
+                <li><a href="#" class="hover-link">Services</a><span><i class="fa fa-angle-down"></i></span></li>
+                <li><a href="#" class="hover-link">Blog</a><i class="fa fa-angle-down"></i></li>
                 <li><a href="#" class="hover-link">Contact</a></li>
             </ul>
         </div>
-        <p><i class="fa-duotone fa-pipe"></i></p>
+        <p><i class="fa fa-pipe" style="color: red"></i></p>
         <button class="hover-link primary-button">Get In Touch</button>
     </nav>
 
@@ -35,10 +42,10 @@
             <h3>My Awesome Clients</h3>
 
             <div>
-                <a>See More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                <a>See More <span><i class="fa fa-long-arrow-right"></i></span></a>
             </div>
 
-            <button class="primary-button">See my Biodata <span><i class="fa-arrow-right" aria-hidden="true"></i></span></button>
+            <button class="primary-button">See my Biodata <span><i class="fa fa-long-arrow-right"></i></span></button>
         </div>
         
         <div class="hero-section-image">
@@ -52,7 +59,7 @@
             <h3>About Me</h3>
             <h2>Want to Know More<span class="primary-text">About</span> me?</h2>
             <p>As a photographer, my passion is to capture moments that tell a story. With each click of the camera, I strive to create images that are not only beautiful, but also meaningful.<br>My style is a mix of classic and contemporary, with a focus on natural light and authentic moments.</p>
-            <button class="primary-button">See More</button>
+            <button class="primary-button">See More <span><i class="fa fa-long-arrow-right"></i></span></button>
             <a href="#">See My Profile</a>
         </div>
         
@@ -75,22 +82,22 @@
             <h2>What <span class="primary-text">can I do?</span></h2>
 
             <div class="service-section-right-personal-photo">
-                <h4>Personal Photos <span><i class="fa-solid fa-arrow-up-right"></i></span></h4>
+                <h4>Personal Photos <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M18.4373 11.8854H10.9906C10.637 11.8854 10.2979 11.7449 10.0478 11.4948C9.79778 11.2448 9.6573 10.9057 9.6573 10.552C9.6573 10.1984 9.79778 9.85927 10.0478 9.60922C10.2979 9.35917 10.637 9.2187 10.9906 9.2187H21.6573C21.8325 9.21817 22.0062 9.25229 22.1682 9.31911C22.3302 9.38593 22.4774 9.48412 22.6013 9.60804C22.7252 9.73196 22.8234 9.87915 22.8902 10.0412C22.957 10.2032 22.9912 10.3768 22.9906 10.552V21.2187C22.9906 21.5723 22.8502 21.9115 22.6001 22.1615C22.3501 22.4116 22.0109 22.552 21.6573 22.552C21.3037 22.552 20.9645 22.4116 20.7145 22.1615C20.4644 21.9115 20.324 21.5723 20.324 21.2187V13.7707L11.2853 22.8094C11.0351 23.0594 10.6959 23.1998 10.3422 23.1996C9.98847 23.1995 9.64931 23.0589 9.3993 22.8087C9.14929 22.5585 9.00891 22.2192 9.00903 21.8656C9.00916 21.5119 9.14978 21.1727 9.39997 20.9227L18.4373 11.8854Z" fill="#24282C"/></svg></span></h4>
                 <p>Personal photos: cherished memories, reflections of who we are.</p>
             </div>
 
             <div class="service-section-right-event-photography">
-                <h4>Copy Event Photography <span><i class="fa-solid fa-arrow-up-right"></i></span></h4>
+                <h4>Copy Event Photography <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M18.4373 11.8854H10.9906C10.637 11.8854 10.2979 11.7449 10.0478 11.4948C9.79778 11.2448 9.6573 10.9057 9.6573 10.552C9.6573 10.1984 9.79778 9.85927 10.0478 9.60922C10.2979 9.35917 10.637 9.2187 10.9906 9.2187H21.6573C21.8325 9.21817 22.0062 9.25229 22.1682 9.31911C22.3302 9.38593 22.4774 9.48412 22.6013 9.60804C22.7252 9.73196 22.8234 9.87915 22.8902 10.0412C22.957 10.2032 22.9912 10.3768 22.9906 10.552V21.2187C22.9906 21.5723 22.8502 21.9115 22.6001 22.1615C22.3501 22.4116 22.0109 22.552 21.6573 22.552C21.3037 22.552 20.9645 22.4116 20.7145 22.1615C20.4644 21.9115 20.324 21.5723 20.324 21.2187V13.7707L11.2853 22.8094C11.0351 23.0594 10.6959 23.1998 10.3422 23.1996C9.98847 23.1995 9.64931 23.0589 9.3993 22.8087C9.14929 22.5585 9.00891 22.2192 9.00903 21.8656C9.00916 21.5119 9.14978 21.1727 9.39997 20.9227L18.4373 11.8854Z" fill="#24282C"/></svg></span></h4>
                 <p>Event photography: capturing moments,creating memories.</p>
             </div>
 
             <div class="service-section-right-portrait-lifestyle">
-                <h4>Portrait & Life Style<span><i class="fa-solid fa-arrow-up-right"></i></span></h4>
+                <h4>Portrait & Life Style<span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M18.4373 11.8854H10.9906C10.637 11.8854 10.2979 11.7449 10.0478 11.4948C9.79778 11.2448 9.6573 10.9057 9.6573 10.552C9.6573 10.1984 9.79778 9.85927 10.0478 9.60922C10.2979 9.35917 10.637 9.2187 10.9906 9.2187H21.6573C21.8325 9.21817 22.0062 9.25229 22.1682 9.31911C22.3302 9.38593 22.4774 9.48412 22.6013 9.60804C22.7252 9.73196 22.8234 9.87915 22.8902 10.0412C22.957 10.2032 22.9912 10.3768 22.9906 10.552V21.2187C22.9906 21.5723 22.8502 21.9115 22.6001 22.1615C22.3501 22.4116 22.0109 22.552 21.6573 22.552C21.3037 22.552 20.9645 22.4116 20.7145 22.1615C20.4644 21.9115 20.324 21.5723 20.324 21.2187V13.7707L11.2853 22.8094C11.0351 23.0594 10.6959 23.1998 10.3422 23.1996C9.98847 23.1995 9.64931 23.0589 9.3993 22.8087C9.14929 22.5585 9.00891 22.2192 9.00903 21.8656C9.00916 21.5119 9.14978 21.1727 9.39997 20.9227L18.4373 11.8854Z" fill="#24282C"/></svg></span></h4>
                 <p>Portrait & lifestyle photography: showcasing individuality, telling unique stories.</p>
             </div>
 
             <div class="service-section-right-fashion-model">
-                <h4>Fashion & Model<span><i class="fa-solid fa-arrow-up-right"></i></span></h4>
+                <h4>Fashion & Model<span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M18.4373 11.8854H10.9906C10.637 11.8854 10.2979 11.7449 10.0478 11.4948C9.79778 11.2448 9.6573 10.9057 9.6573 10.552C9.6573 10.1984 9.79778 9.85927 10.0478 9.60922C10.2979 9.35917 10.637 9.2187 10.9906 9.2187H21.6573C21.8325 9.21817 22.0062 9.25229 22.1682 9.31911C22.3302 9.38593 22.4774 9.48412 22.6013 9.60804C22.7252 9.73196 22.8234 9.87915 22.8902 10.0412C22.957 10.2032 22.9912 10.3768 22.9906 10.552V21.2187C22.9906 21.5723 22.8502 21.9115 22.6001 22.1615C22.3501 22.4116 22.0109 22.552 21.6573 22.552C21.3037 22.552 20.9645 22.4116 20.7145 22.1615C20.4644 21.9115 20.324 21.5723 20.324 21.2187V13.7707L11.2853 22.8094C11.0351 23.0594 10.6959 23.1998 10.3422 23.1996C9.98847 23.1995 9.64931 23.0589 9.3993 22.8087C9.14929 22.5585 9.00891 22.2192 9.00903 21.8656C9.00916 21.5119 9.14978 21.1727 9.39997 20.9227L18.4373 11.8854Z" fill="#24282C"/></svg></span></h4>
                 <p>Fashion and model photography: striking poses, showcasing style.</p>
             </div>
         </div>
@@ -100,6 +107,7 @@
     <section>
         <div class="portfolio-section-up">
             <h3>Portfolio</h3>
+            <a href="#">See more <span><i class="fa fa-long-arrow-right"></i></span></a>
             <h2>See my <span class="primary-text">Best Portfolio</span></h2>
             <p>Embark on a visual journey through my best portfolio, where my passion for capturing captivating moments and my
                 expertise in photography come together to create stunning and memorable images.</p>
@@ -113,7 +121,7 @@
     <!--testimonial section-->
     <section>
         <h3>Testimonial</h3>
-        <a href="#">See more</a>
+        <a href="#">See more <spa><i class="fa fa-long-arrow-right"></i></spa></a>
         <h2>What’s <span>Client Say</span> about me?</h2>
 
         <div class="testimonial-section-cards">
@@ -194,9 +202,9 @@
     </section>
 
     <!--Article Section-->
-    <section>
+    <section class="container flex">
         <h3>Article</h3>
-        <a href="#">See more</a>
+        <a href="#">See more <i class="fa fa-long-arrow-right"></i></a>
         <h2>Recent<span>Article</span></h2>
 
         <div class="article-section-articles">
@@ -258,10 +266,7 @@
             <div>
                 <form action="">
                     <input type="text" placeholder="write your email for susbcribe">
-                    <button class="primary-button"><span><svg xmlns="http://www.w3.org/2000/svg" width="64" height="32" viewBox="0 0 64 32" fill="none">
-  <path d="M52.6667 15.6341L12.6667 15.6341" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M36.5339 7.60166L52.6673 15.6337L36.5339 23.667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></span></button>
+                    <button class="primary-button"><span><svg xmlns="http://www.w3.org/2000/svg" width="64" height="32" viewBox="0 0 64 32" fill="none"><path d="M52.6667 15.6341L12.6667 15.6341" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M36.5339 7.60166L52.6673 15.6337L36.5339 23.667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
                 </form>
             </div>
         </div>

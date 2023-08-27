@@ -1,0 +1,1248 @@
+.lets-collaboration-with {
+    position: relative;
+    font-weight: 600;
+}
+
+.lorem-ipsum-dolor {
+    margin: 0;
+}
+
+.lorem-ipsum-dolor-container {
+    position: relative;
+    font-size: var(--web-font-6-bold-size);
+    line-height: 2.31rem;
+    font-weight: 500;
+    color: var(--background-light-60);
+    text-align: left;
+}
+
+.lets-collaboration-with-us-parent {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    text-align: center;
+    font-size: var(--web-font-4-bold-size);
+}
+
+.navigation-web-light-mode-child {
+    position: absolute;
+    top: 24.23rem;
+    left: 5rem;
+    width: 80rem;
+    height: 0.03rem;
+}
+
+.button-dark-web-dark-mode {
+    position: relative;
+    width: 5.06rem;
+    height: 5.06rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.button-dark-web-dark-mode-parent {
+    position: absolute;
+    top: 16.69rem;
+    left: 66.81rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+
+.email {
+    position: relative;
+    font-weight: 600;
+    display: none;
+}
+
+.write-your-email {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-weight: 500;
+}
+
+.field {
+    position: relative;
+    background-color: var(--background-light-100);
+    width: 34.38rem;
+    height: 5.06rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: var(--grey-100);
+}
+
+.form-web-light-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-base);
+}
+
+.button-web-light-mode {
+    position: relative;
+    width: 10.13rem;
+    height: 5.06rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.form-web-light-mode-parent {
+    position: absolute;
+    top: 6.63rem;
+    left: 39rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    color: var(--dark-100);
+}
+
+.grapz {
+    color: var(--background-light-100);
+}
+
+.photograpz {
+    position: absolute;
+    top: 17.69rem;
+    left: 5rem;
+    font-size: var(--font-size-16xl);
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-peru);
+}
+
+.home {
+    position: relative;
+}
+
+.home-parent {
+    position: absolute;
+    top: 18.19rem;
+    left: 25.06rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xl);
+    color: var(--grey-100);
+}
+
+.call-icon {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.call-parent,
+.frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.frame-group {
+    gap: var(--gap-13xl);
+}
+
+.photograpz-all-right-container {
+    position: relative;
+    text-align: right;
+}
+
+.frame-parent {
+    position: absolute;
+    top: 26.75rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-63xl);
+    font-size: var(--web-font-7-regular-size);
+}
+
+.navigation-web-light-mode {
+    position: absolute;
+    top: 464.63rem;
+    left: 0;
+    background-color: var(--dark-100);
+    width: 90rem;
+    height: 33.31rem;
+    overflow: hidden;
+    color: var(--background-light-100);
+}
+
+.dot-child,
+.dot-item {
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--dark-100);
+    width: 1rem;
+    height: 1rem;
+}
+
+.dot-item {
+    background-color: var(--grey-40);
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.dot {
+    position: absolute;
+    top: 50.94rem;
+    left: 43rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.picture-icon {
+    position: absolute;
+    height: calc(100% - 194px);
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 12.13rem;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.how-to-be {
+    position: absolute;
+    bottom: 8.38rem;
+    left: 0;
+    font-weight: 600;
+}
+
+.in-addition-its-container {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    font-size: var(--web-font-6-bold-size);
+    line-height: 2.31rem;
+    font-weight: 500;
+    color: var(--grey-100);
+}
+
+.cristiano-ronaldo {
+    position: relative;
+    font-weight: 500;
+}
+
+.calendar-parent,
+.chat-parent,
+.profile-parent {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.profile-parent {
+    left: 0;
+}
+
+.calendar-parent,
+.chat-parent {
+    left: 12.13rem;
+}
+
+.calendar-parent {
+    left: 22.44rem;
+}
+
+.frame-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 29.88rem;
+    height: 1.5rem;
+    font-size: var(--web-font-8-medium-size);
+}
+
+.card-web-light-mode,
+.card-web-light-mode1,
+.card-web-light-mode2 {
+    position: absolute;
+    top: 15.44rem;
+    left: 85.25rem;
+    width: 36.94rem;
+    height: 31.25rem;
+}
+
+.card-web-light-mode1,
+.card-web-light-mode2 {
+    left: 45.69rem;
+}
+
+.card-web-light-mode2 {
+    left: 5rem;
+}
+
+.see-more {
+    position: absolute;
+    top: 9.06rem;
+    left: 76rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    text-align: center;
+    font-size: var(--web-font-6-bold-size);
+    color: var(--color-peru);
+}
+
+.frame-child {
+    position: relative;
+    border-radius: var(--br-81xl);
+    background-color: var(--dark-100);
+    width: 1.5rem;
+    height: 0.25rem;
+}
+
+.frame-parent2,
+.rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.frame-parent2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-base);
+}
+
+.title {
+    position: absolute;
+    top: 4.69rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--web-font-6-bold-size);
+}
+
+.recent-article {
+    position: absolute;
+    top: 403.31rem;
+    left: 0;
+    width: 90rem;
+    height: 56.63rem;
+    overflow: hidden;
+    font-size: var(--web-font-4-bold-size);
+}
+
+.purchase-web-light-mode-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white-100);
+    width: 25.31rem;
+    height: 28.06rem;
+}
+
+.personal {
+    position: absolute;
+    top: 2rem;
+    left: 6.69rem;
+    font-size: var(--web-font-4-bold-size);
+    font-weight: 600;
+    color: var(--dark-100);
+}
+
+.lorem-ipsum-dolor1 {
+    position: absolute;
+    top: 6.25rem;
+    left: 2rem;
+    line-height: 2.31rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 21.31rem;
+}
+
+.span {
+    font-weight: 600;
+}
+
+.mo1 {
+    font-size: var(--web-font-6-bold-size);
+    font-weight: 500;
+    color: var(--grey-100);
+}
+
+.mo {
+    position: absolute;
+    top: 12.88rem;
+    left: 7.19rem;
+    font-size: var(--font-size-29xl);
+    color: var(--dark-100);
+}
+
+.decoration-icon {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+}
+
+.decoration-container,
+.decoration-group,
+.decoration-parent,
+.decoration-parent1 {
+    position: absolute;
+    top: 30.06rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.decoration-container,
+.decoration-group,
+.decoration-parent1 {
+    top: 34.13rem;
+}
+
+.decoration-container,
+.decoration-parent1 {
+    top: 38.19rem;
+}
+
+.decoration-parent1 {
+    top: 42.25rem;
+}
+
+.up-to-100-container {
+    position: relative;
+    line-height: 2.31rem;
+}
+
+.decoration-parent2 {
+    position: absolute;
+    top: 46.31rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: left;
+}
+
+.get-in-touch {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 77.5px);
+    font-weight: 600;
+}
+
+.button-web-light-mode1 {
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+    background-color: var(--dark-20);
+    width: 21.31rem;
+    height: 5.06rem;
+    color: var(--dark-100);
+}
+
+.purchase-web-light-mode,
+.purchase-web-light-mode-item {
+    position: absolute;
+    background-color: var(--background-light-100);
+}
+
+.purchase-web-light-mode {
+    top: 4.66rem;
+    left: 59.66rem;
+    border: 0.5px solid var(--grey-100);
+    box-sizing: border-box;
+    width: 25.38rem;
+    height: 53rem;
+    overflow: hidden;
+}
+
+.purchase-web-light-mode-item {
+    top: 28.06rem;
+    left: 0;
+    width: 25.31rem;
+    height: 26.88rem;
+}
+
+.group {
+    position: absolute;
+    top: 2rem;
+    left: 9.69rem;
+    font-size: var(--web-font-4-bold-size);
+    font-weight: 600;
+    color: var(--background-light-100);
+}
+
+.lorem-ipsum-dolor2 {
+    position: absolute;
+    top: 6.25rem;
+    left: 2rem;
+    line-height: 2.31rem;
+    font-weight: 500;
+    color: var(--background-light-40);
+    display: inline-block;
+    width: 21.31rem;
+}
+
+.mo3 {
+    font-size: var(--web-font-6-bold-size);
+    font-weight: 500;
+}
+
+.button-web-light-mode2,
+.mo2 {
+    position: absolute;
+    color: var(--background-light-100);
+}
+
+.mo2 {
+    top: 12.88rem;
+    left: 7.56rem;
+    font-size: var(--font-size-29xl);
+}
+
+.button-web-light-mode2 {
+    top: 20rem;
+    left: 2rem;
+    background-color: var(--color-peru);
+    width: 21.31rem;
+    height: 5.06rem;
+}
+
+.purchase-web-light-mode1 {
+    position: absolute;
+    top: 4.66rem;
+    left: 32.28rem;
+    background-color: var(--dark-100);
+    border: 0.5px solid var(--grey-100);
+    box-sizing: border-box;
+    width: 25.38rem;
+    height: 53rem;
+    overflow: hidden;
+}
+
+.mo4,
+.personal1 {
+    position: absolute;
+    color: var(--dark-100);
+}
+
+.personal1 {
+    top: 2rem;
+    left: 8.44rem;
+    font-size: var(--web-font-4-bold-size);
+    font-weight: 600;
+}
+
+.mo4 {
+    top: 12.88rem;
+    left: 7.44rem;
+    font-size: var(--font-size-29xl);
+}
+
+.purchase-web-light-mode2 {
+    position: absolute;
+    top: 4.66rem;
+    left: 4.97rem;
+    background-color: var(--background-light-100);
+    border: 0.5px solid var(--grey-100);
+    box-sizing: border-box;
+    width: 25.38rem;
+    height: 53rem;
+    overflow: hidden;
+}
+
+.dot1,
+.purchase {
+    position: absolute;
+}
+
+.purchase {
+    top: 341rem;
+    left: 0;
+    width: 90rem;
+    height: 62.31rem;
+    overflow: hidden;
+    text-align: center;
+    color: var(--grey-100);
+}
+
+.dot1 {
+    top: 69.81rem;
+    left: 43rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.card-web-light-mode-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.lorem-ipsum-dolor-container1 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: var(--web-font-4-bold-size);
+    line-height: 3.13rem;
+}
+
+.ngolo-kante {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.jakarta-indonesian {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    color: var(--background-light-80);
+    text-align: right;
+}
+
+.lorem-ipsum-dolor-sit-amet-co-parent {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: var(--background-light-20);
+    backdrop-filter: blur(50px);
+    width: 34.5rem;
+    height: 21.56rem;
+    overflow: hidden;
+}
+
+.card-web-light-mode3,
+.card-web-light-mode4 {
+    position: absolute;
+    top: 15.44rem;
+    left: 46.5rem;
+    width: 38.5rem;
+    height: 51.38rem;
+    overflow: hidden;
+}
+
+.card-web-light-mode4 {
+    left: 5rem;
+}
+
+.see-more2 {
+    position: absolute;
+    top: 7.5rem;
+    left: 76rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    text-align: center;
+}
+
+.client-say,
+.see-more2 {
+    color: var(--color-peru);
+}
+
+.whats-client-say-container {
+    position: relative;
+    font-size: var(--web-p-bold-75-size);
+    line-height: 4.69rem;
+    display: inline-block;
+    width: 48.25rem;
+}
+
+.title1 {
+    position: absolute;
+    top: 4.69rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    color: var(--dark-100);
+}
+
+.testimonial {
+    position: absolute;
+    top: 265.5rem;
+    left: 0;
+    width: 90rem;
+    height: 75.5rem;
+    overflow: hidden;
+    color: var(--background-light-100);
+}
+
+.image-icon,
+.image-icon1,
+.image-icon2,
+.image-icon3,
+.image-icon4 {
+    position: absolute;
+    top: 39rem;
+    left: 50.56rem;
+    width: 34.44rem;
+    height: 14.94rem;
+    object-fit: cover;
+}
+
+.image-icon1,
+.image-icon2,
+.image-icon3,
+.image-icon4 {
+    left: 32.63rem;
+    width: 14.94rem;
+}
+
+.image-icon2,
+.image-icon3,
+.image-icon4 {
+    top: 21.06rem;
+    left: 70.06rem;
+}
+
+.image-icon3,
+.image-icon4 {
+    left: 32.63rem;
+    width: 34.44rem;
+}
+
+.image-icon4 {
+    left: 5rem;
+    width: 24.63rem;
+    height: 32.88rem;
+}
+
+.see-more4 {
+    position: absolute;
+    top: 7.5rem;
+    left: 76rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    text-align: center;
+}
+
+.embark-on-a-container {
+    position: absolute;
+    top: 13.44rem;
+    left: 5rem;
+    line-height: 2.31rem;
+    color: var(--grey-100);
+}
+
+.see-my-best-container {
+    position: relative;
+    font-size: var(--web-p-bold-75-size);
+    line-height: 4.69rem;
+}
+
+.portfolio {
+    position: absolute;
+    top: 206.88rem;
+    left: 0;
+    width: 90rem;
+    height: 58.63rem;
+    overflow: hidden;
+    color: var(--color-peru);
+}
+
+.photos-icon {
+    position: absolute;
+    top: 4.69rem;
+    left: 5rem;
+    width: 38.13rem;
+    height: 53rem;
+    object-fit: cover;
+}
+
+.arrow-up-rigth-icon {
+    position: absolute;
+    top: 0.19rem;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+}
+
+.fashion-model-parent {
+    position: relative;
+    width: 35.19rem;
+    height: 2.38rem;
+}
+
+.fashion-and-model-container {
+    position: relative;
+    font-size: var(--web-font-6-bold-size);
+    line-height: 2.31rem;
+}
+
+.group-parent {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.fashion-model {
+    position: absolute;
+    top: 46.69rem;
+    left: 46.81rem;
+    background-color: var(--dark-100);
+    width: 38.19rem;
+    height: 11rem;
+    overflow: hidden;
+    color: var(--background-light-100);
+}
+
+.portrait-life {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portrait-lifestyle-container {
+    position: relative;
+    font-size: var(--web-font-6-bold-size);
+    line-height: 2.31rem;
+    color: var(--grey-100);
+}
+
+.portrait-life-style {
+    top: 35.69rem;
+    background-color: var(--background-light-100);
+}
+
+.event-photography,
+.personal-photos,
+.portrait-life-style {
+    position: absolute;
+    left: 46.81rem;
+    width: 38.19rem;
+    height: 11rem;
+    overflow: hidden;
+}
+
+.event-photography {
+    top: 24.69rem;
+    background-color: var(--dark-100);
+    color: var(--background-light-100);
+}
+
+.personal-photos {
+    top: 13.69rem;
+    background-color: var(--background-light-100);
+}
+
+.what-can-i-container {
+    position: relative;
+    font-size: var(--web-p-bold-75-size);
+    line-height: 4.69rem;
+    text-align: center;
+}
+
+.title3 {
+    position: absolute;
+    top: 4.69rem;
+    left: 46.81rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    font-size: var(--web-font-6-bold-size);
+}
+
+.our-service {
+    position: absolute;
+    top: 144.5rem;
+    left: 0;
+    width: 90rem;
+    height: 62.38rem;
+    overflow: hidden;
+    font-size: var(--web-font-5-bold-size);
+}
+
+.image,
+.image-icon5,
+.rectangle {
+    position: absolute;
+    width: 37.88rem;
+}
+
+.rectangle {
+    top: 9.44rem;
+    left: 0;
+    border-radius: 1000px;
+    background: linear-gradient(95.55deg, #a5823c, #3e3116);
+    height: 37.88rem;
+}
+
+.image,
+.image-icon5 {
+    height: 47.31rem;
+}
+
+.image-icon5 {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.image {
+    top: 4.69rem;
+    left: 47.13rem;
+}
+
+.see-my-portfolio {
+    position: absolute;
+    top: 43.63rem;
+    left: 21rem;
+    font-weight: 600;
+}
+
+.see-my-biodata-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.button-web-light-mode4 {
+    position: absolute;
+    top: 42.13rem;
+    left: 5rem;
+    background-color: var(--color-peru);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-5xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--background-light-100);
+}
+
+.as-a-photographer-container {
+    position: absolute;
+    top: 22.94rem;
+    left: 5rem;
+    line-height: 2.31rem;
+    color: var(--grey-100);
+    display: inline-block;
+    width: 38.38rem;
+}
+
+.me {
+    color: var(--dark-100);
+}
+
+.about-me2 {
+    margin: 0;
+    color: var(--color-peru);
+}
+
+.title4 {
+    position: absolute;
+    top: 9.5rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    color: var(--dark-100);
+}
+
+.about-me {
+    position: absolute;
+    top: 87.81rem;
+    left: 0;
+    width: 90rem;
+    height: 56.69rem;
+    overflow: hidden;
+    color: var(--color-peru);
+}
+
+.image-icon6 {
+    position: absolute;
+    top: 32.06rem;
+    left: 5rem;
+    width: 80rem;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.button-web-light-mode5 {
+    position: absolute;
+    top: 23.25rem;
+    left: 60.75rem;
+    background-color: var(--color-peru);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-5xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--background-light-100);
+}
+
+.contact-child {
+    position: relative;
+    width: 6.56rem;
+    height: 4.25rem;
+}
+
+.b {
+    position: relative;
+    font-size: var(--web-font-4-bold-size);
+}
+
+.contact-me-on-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.contact,
+.strip {
+    position: absolute;
+}
+
+.contact {
+    top: 16.44rem;
+    left: 60.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+
+.strip {
+    top: 14.31rem;
+    left: 84.5rem;
+    border-radius: var(--br-81xl);
+    background-color: var(--grey-40);
+    width: 0.13rem;
+    height: 23.75rem;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.group-icon {
+    position: relative;
+    width: 14rem;
+    height: 4.25rem;
+}
+
+.clients,
+.group-parent3 {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+
+.group-parent3 {
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--web-font-6-bold-size);
+    color: var(--color-peru);
+}
+
+.clients {
+    position: absolute;
+    top: 4.69rem;
+    left: 60.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: var(--web-font-5-bold-size);
+}
+
+.i-believe-that-container {
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+    line-height: 2.31rem;
+    color: var(--grey-100);
+}
+
+.cristiano-ronaldo-dos-container {
+    position: absolute;
+    top: 8.38rem;
+    left: 5rem;
+    font-size: var(--web-font-1-extrabold-size);
+    font-weight: 800;
+}
+
+.hello-my-name {
+    position: absolute;
+    top: 5.31rem;
+    left: 5rem;
+}
+
+.header {
+    position: absolute;
+    top: 11.06rem;
+    left: 0;
+    width: 90rem;
+    height: 76.75rem;
+    overflow: hidden;
+}
+
+.photograpz1 {
+    position: absolute;
+    top: calc(50% - 22.5px);
+    left: 5rem;
+    font-size: var(--web-font-4-bold-size);
+    font-weight: 800;
+}
+
+.navigation-web-light-mode-item {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    right: 20.94rem;
+    border-radius: var(--br-81xl);
+    background-color: var(--grey-40);
+    width: 0.13rem;
+    height: 1.5rem;
+}
+
+.get-in-touch3 {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 71.5px);
+    font-weight: 600;
+}
+
+.button-web-light-mode6 {
+    position: absolute;
+    top: calc(50% - 40.5px);
+    right: 5rem;
+    background-color: var(--color-peru);
+    width: 12.94rem;
+    height: 5.06rem;
+    color: var(--background-light-100);
+}
+
+.menu-child {
+    position: relative;
+    background-color: var(--color-peru);
+    width: 1.5rem;
+    height: 0.25rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    color: var(--color-peru);
+}
+
+.about1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+}
+
+.menu1,
+.menu4 {
+    position: relative;
+    width: 4.31rem;
+    height: 2.06rem;
+}
+
+.menu4 {
+    width: 6.63rem;
+}
+
+.menu-parent {
+    position: absolute;
+    top: calc(50% - 22.5px);
+    right: 24.06rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-29xl);
+    text-align: left;
+    color: var(--grey-100);
+}
+
+.home-page,
+.navigation-web-light-mode1 {
+    background-color: var(--background-light-100);
+    overflow: hidden;
+    font-size: var(--web-font-6-bold-size);
+    font-family: var(--web-font-1-extrabold);
+}
+
+.navigation-web-light-mode1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90rem;
+    height: 11.06rem;
+    text-align: center;
+    color: var(--color-peru);
+}
+
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 497.94rem;
+    text-align: left;
+    color: var(--dark-100);
+}
