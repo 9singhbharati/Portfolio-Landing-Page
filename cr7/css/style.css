@@ -12,7 +12,7 @@
     --dark-100: #24282C;
     --grey-light:#878787;
     --grey-40:#87878766;
-    --padding-inline-section: 20px;
+    /*--padding-inline-section: 20px;*/
 
 }
 
@@ -74,8 +74,8 @@ ul {
 
 .container {
     max-width: 90rem;
-    margin-inline: auto;
-    padding-inline: var(--padding-inline-section);
+    /*margin-inline: auto;*/
+    margin: 0 5rem;
     overflow: hidden;
 }
 
@@ -85,11 +85,25 @@ ul {
 }
 
 .primary-button{
-    color: #FFFFFF;
-    background-color: var(--primary-text-color);
     display: inline-flex;
     padding: 1.5rem;
     border: none;
+    color: #FFFFFF;
+    background-color: var(--primary-text-color);
+}
+
+.primary-button-with-arrow {
+    padding: 1.5rem;
+    /*flex-direction: column;*/
+    /*align-items: flex-start;*/
+    gap: 0.625rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    color: #FFFFFF;
+    background-color: var(--primary-text-color);
 }
 
 .primary-text {
@@ -100,6 +114,9 @@ ul {
 
 .logo {
     font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 nav ul{
@@ -108,6 +125,21 @@ nav ul{
     margin-left: 9.38rem;
 }
 
+nav ul li {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav ul li span{
+    padding: 0rem 0.20831rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey-light);
+}
+
+
 .pipe {
     width: 0.125rem;
     height: 1.5rem;
@@ -115,27 +147,79 @@ nav ul{
     background: var(--grey-40, rgba(135, 135, 135, 0.40));
 }
 
-nav .nav-button{
+nav button{
+    width: 12.9375rem;
+    height: 5.0625rem;
     padding: 1.5rem 2rem;
     justify-content: center;
+    align-items: center;
     margin: 3rem 0 5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /*hero section*/
-
-.hero-section-left{
-    width: 70%;
+.hero-section {
+    flex-flow: row wrap;;
 }
+.hero-section-left{
+    width: 60%;
+}
+
 .hero-section-left h3{
     font-size: 1.5rem;
-    margin: 5.31rem 1rem 5rem;
+    margin: 5.31rem 0 1rem;
 }
 
+.hero-section-right {
+    width: 30%;
+}
 
 .hero-section-image {
     width: 100%;
+    height: 40rem;
 }
 
 .hero-section-image img{
     width: 100%;
+}
+
+/*about me section*/
+
+.about-me-left{
+    width: 53%;
+}
+
+.about-me-left h3 {
+    margin: 14.29rem 0 1rem 2rem;
+}
+
+.about-me-left button {
+    margin-top: 3rem;
+}
+
+.about-me-left a {
+    margin-left: 3rem;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--primary-text-color);
+}
+.about-me-right{
+    width: 47%;
+}
+
+/*service section*/
+.service-section-left {
+    margin: 4.69rem 0 4.6rem 0;
+    width: 38.125rem;
+    height: 53rem;
+}
+
+.service-section-right {
+    width: 40%;
 }
