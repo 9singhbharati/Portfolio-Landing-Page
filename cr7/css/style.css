@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&family=Roboto:wght@400;700&display=swap');
 
 /*resets*/
 * {
@@ -135,11 +135,19 @@ nav ul{
 }
 
 nav ul li {
+    /* margin-bottom: 1.5rem; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
+nav ul li .home  span{
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.25rem;
+    text-decoration-color: var(--primary-text-color);
+    /* color: var(--primary-text-color);*/
+} 
 
 nav ul li span{
     padding: 0rem 0.20831rem;
@@ -153,6 +161,7 @@ nav ul li span{
     width: 0.125rem;
     height: 1.5rem;
     border-radius: 6.25rem;
+    margin: 2rem 0 2rem;
     background: var(--grey-40, rgba(135, 135, 135, 0.40));
 }
 
@@ -170,6 +179,7 @@ nav button{
 }
 
 /*hero section*/
+/* left */
 .hero-section {
     flex-flow: row wrap;;
 }
@@ -182,13 +192,86 @@ nav button{
     margin: 5.31rem 0 1rem;
 }
 
+/* right */
 .hero-section-right {
-    width: 30%;
+    width: 40%;
+    /* flex-flow: row wrap; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.avatars {
+    display: flex;
+    /* margin-left: 3rem; */
+    flex-direction: row-reverse;
+  }
+
+  .avatar {
+    position: relative;
+    border: 4px solid #fff;
+    border-radius: 3.75rem;
+    overflow: hidden;
+    width: 100px;
+  }
+  
+.avatar:not(:last-child) {
+    margin-left: -60px;
+  }
+  
+.avatar img {
+    width: 100%;
+    display: block;
+  }
+
+.avatars a {
+    margin: 2.34rem 0  0 1.5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--primary-text-color);
+    }
+
+.avatars a span{
+    margin-left: 0.75rem;
+}
+
+.hero-section-right .primary-button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-section-right .primary-button span {
+    margin-left: 0.75rem;
+}
+
+.hero-section .horizontal-line {
+    height: 0.125rem;
+    width: 23.75rem;
+    margin: 2rem 0 2rem;
+    border-radius: 6.25rem;
+    background: var(--grey-40, rgba(135, 135, 135, 0.40));
+}
+
+.hero-section-right h3{
+    flex-direction: column;
+}
+
+.hero-section h3 span {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .hero-section-image {
     width: 100%;
     height: 40rem;
+    margin: 4.4rem 0 4.4rem;
 }
 
 .hero-section-image img{
@@ -224,6 +307,10 @@ nav button{
 }
 .about-me-right{
     width: 47%;
+}
+
+.about-me-right img {
+    width: 100%;
 }
 
 /*service section*/
