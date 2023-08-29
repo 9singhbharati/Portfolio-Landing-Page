@@ -12,6 +12,7 @@
     --dark-100: #24282C;
     --grey-light:#878787;
     --grey-40:#87878766;
+    --light:#FFF;
     /*--padding-inline-section: 20px;*/
 
 }
@@ -37,6 +38,14 @@ h2 {
 }
 
 h3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--dark-100);
+}
+
+h4 {
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 700;
@@ -196,6 +205,10 @@ nav button{
     margin: 14.29rem 0 1rem 2rem;
 }
 
+.about-me-left-buttons-and-link{
+    align-items: flex-start;
+}
+
 .about-me-left button {
     margin-top: 3rem;
 }
@@ -214,6 +227,11 @@ nav button{
 }
 
 /*service section*/
+
+.service-section{
+    gap: 3.69rem;
+}
+
 .service-section-left {
     margin: 4.69rem 0 4.6rem 0;
     width: 38.125rem;
@@ -221,5 +239,32 @@ nav button{
 }
 
 .service-section-right {
-    width: 40%;
+    width: 50%;
+}
+
+.service-section-right-card{
+    /*margin: 3rem 0 1.5rem;*/
+    padding: 1.5rem;
+}
+
+.personal-photo span {
+    margin-left:18.38rem;
+}
+
+.event-photography {
+    background-color:var(--dark-100);
+    padding: 1.5rem;
+}
+
+.event-photography h4 {
+    color: var(--light);
+}
+
+.event-photography span {
+    margin-left: 16.94rem;
+    color: var(--light);
+}
+
+.event-photography p{
+    color: var(--light);
 }
